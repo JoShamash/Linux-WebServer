@@ -1,3 +1,6 @@
+#ifndef HEADER_H
+#define HEADER_H
+
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -9,6 +12,7 @@
 #include <sys/time.h>
 #include <string.h>
 
+#define DISCONNECT_TIME 10 // 断连时间
 
 #define ARGS_CHECK(argc, num)\
     {\
@@ -25,3 +29,5 @@
             return -1;\
         }\
     }
+
+#endif // HEADER_H
