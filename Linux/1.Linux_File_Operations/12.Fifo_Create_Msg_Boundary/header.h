@@ -33,8 +33,8 @@
 
 typedef struct private_protocol
 {
-    int size;
-    char data[1024];
+    int size; // 总长度
+    char data[1024]; // 数据
 }PP;
     
 
