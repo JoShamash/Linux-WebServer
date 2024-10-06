@@ -3,6 +3,7 @@
 int main(){
     int ret = 0;
     ret = fork();
+    ERROR_CHECK(ret, -1, "fork");
     int pid = getpid();
     int ppid = getppid();
     int sid = getsid(0);

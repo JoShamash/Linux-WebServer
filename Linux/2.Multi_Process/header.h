@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <sys/select.h>
 #include <sys/time.h>
+#include <sys/wait.h>
 #include <string.h>
 #include <sys/stat.h>
 #include <dirent.h>
