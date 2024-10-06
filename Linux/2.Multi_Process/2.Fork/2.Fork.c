@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../header.h"
 
 int main(){
 	int stack_data = 0;
